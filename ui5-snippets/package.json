@@ -1,0 +1,25 @@
+{
+    "name": "ui5-snippets",
+    "displayName": "ui5-snippets",
+    "description": "SAPUI5/OpenUI5 code snippets for Visual Studio Code",
+    "version": "1.0.0",
+    "publisher": "Andres Garcia",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            }
+        ]
+    }
+}

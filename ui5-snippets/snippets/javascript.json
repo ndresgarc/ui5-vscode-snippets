@@ -1,0 +1,11 @@
+{
+	"Insert UI5 bootstrap <script> tag": {
+		"prefix": "ui5-button",
+		"body": [
+			"var ui5Button = new sap.m.Button({",
+			"\ttext: \"text\"",	
+			"})"
+		],
+		"description": "New UI5 button"
+	}
+}
