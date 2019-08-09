@@ -1,0 +1,41 @@
+{
+	"UI5 Component Button": {
+		"prefix": "ui5-button",
+		"body": [
+			"var ui5Button = new sap.m.Button({",
+			"\ttext: \"text\",",	
+			"\tpress: function (oEvent) {",	
+			"\t\t ... ",	
+			"\t}",	
+			"});"
+		],
+		"description": "New UI5 button"
+	},
+	"UI5 Component Text": {
+		"prefix": "ui5-text",
+		"body": [
+			"var ui5Text = new sap.m.Text({",
+			"\ttext: \"text\"",
+			"});"
+		],
+		"description": "New UI5 Text"
+	},
+	"UI5 Component HBox": {
+		"prefix": "ui5-hbox",
+		"body": [
+			"var ui5HBox = new sap.m.HBox({",
+			"\t",
+			"});"
+		],
+		"description": "New UI5 HBox"
+	},
+	"UI5 Component VBox": {
+		"prefix": "ui5-vbox",
+		"body": [
+			"var ui5VBox = new sap.m.VBox({",
+			"\t",
+			"});"
+		],
+		"description": "New UI5 VBox"
+	}
+}

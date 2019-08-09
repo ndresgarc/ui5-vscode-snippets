@@ -18,7 +18,11 @@
             },
             {
                 "language": "javascript",
-                "path": "./snippets/javascript.json"
+                "path": "./snippets/javascript-components.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/xml-components.json"
             }
         ]
     }
