@@ -1,6 +1,6 @@
 {
-	"UI5 Component Button": {
-		"prefix": "ui5-button",
+	"sap.m.Button": {
+		"prefix": ["sap.m.Button", "ui5-button"],
 		"body": [
 			"var ui5Button = new sap.m.Button({",
 			"\ttext: \"text\",",	
@@ -9,16 +9,16 @@
 			"\t}",	
 			"});"
 		],
-		"description": "New UI5 button"
+		"description": "New sap.m.Button"
 	},
 	"UI5 Component Text": {
-		"prefix": "ui5-text",
+		"prefix": ["sap.m.Text", "ui5-text"],
 		"body": [
 			"var ui5Text = new sap.m.Text({",
 			"\ttext: \"text\"",
 			"});"
 		],
-		"description": "New UI5 Text"
+		"description": "New sap.m.Text"
 	},
 	"UI5 Component HBox": {
 		"prefix": "ui5-hbox",

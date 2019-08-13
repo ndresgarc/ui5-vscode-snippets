@@ -1,6 +1,6 @@
 {
 	"sap.m.Button": {
-		"prefix": "ui5-button",
+		"prefix": ["<Button", ":Button", "ui5-button"],
 		"body": [
 			"<sap.m.Button",
 			"\ttext=\"text\"",
