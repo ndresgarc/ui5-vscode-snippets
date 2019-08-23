@@ -42,13 +42,13 @@
 		"prefix": ["sap.m.Input", "ui5-input"],
 		"body": [
 			"var ui5Input = new sap.m.Input({",
-				"\tdescription: 'string'",
-				"\tfieldWidth: 'CSSSize'",
-				"\tfilterSuggests: 'boolean'",
-				"\tmaxLength: 'int'",
-				"\tmaxSuggestionWidth: 'CSSSize'",
-				"\tselectedKey: 'string'",
-				"\tshowSuggestion: 'boolean'",
+				"\tdescription: '$1' // string",
+				"\tfieldWidth: '$2' // CSSSize",
+				"\tfilterSuggests: '$3' // boolean",
+				"\tmaxLength: '$4' // int",
+				"\tmaxSuggestionWidth: '$5' // CSSSize",
+				"\tselectedKey: '$6' // string",
+				"\tshowSuggestion: '$7' // boolean",
 			"});"
 		],
 		"description": "New sap.m.Input"
