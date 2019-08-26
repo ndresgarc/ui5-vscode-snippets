@@ -1,56 +1,2522 @@
 {
-	"sap.m.Button": {
-		"prefix": ["sap.m.Button", "ui5-button"],
-		"body": [
-			"var ui5Button = new sap.m.Button({",
-			"\ttext: \"text\",",	
-			"\tpress: function (oEvent) {",	
-			"\t\t ... ",	
-			"\t}",	
-			"});"
-		],
-		"description": "New sap.m.Button"
-	},
-	"sap.m.Text": {
-		"prefix": ["sap.m.Text", "ui5-text"],
-		"body": [
-			"var ui5Text = new sap.m.Text({",
-			"\ttext: \"text\"",
-			"});"
-		],
-		"description": "New sap.m.Text"
-	},
-	"sap.m.HBox": {
-		"prefix": ["sap.m.HBox", "ui5-hbox"],
-		"body": [
-			"var ui5HBox = new sap.m.HBox({",
-			"\t",
-			"});"
-		],
-		"description": "New sap.m.HBox"
-	},
-	"sap.m.VBox": {
-		"prefix": ["sap.m.VBox", "ui5-vbox"],
-		"body": [
-			"var ui5VBox = new sap.m.VBox({",
-			"\t",
-			"});"
-		],
-		"description": "New sap.m.VBox"
-	},
-	"sap.m.Input": {
-		"prefix": ["sap.m.Input", "ui5-input"],
-		"body": [
-			"var ui5Input = new sap.m.Input({",
-				"\tdescription: '$1' // string",
-				"\tfieldWidth: '$2' // CSSSize",
-				"\tfilterSuggests: '$3' // boolean",
-				"\tmaxLength: '$4' // int",
-				"\tmaxSuggestionWidth: '$5' // CSSSize",
-				"\tselectedKey: '$6' // string",
-				"\tshowSuggestion: '$7' // boolean",
-			"});"
-		],
-		"description": "New sap.m.Input"
-	}
+    "sap.m.ActionListItem": {
+        "prefix": [
+            "ui5-actionlistitem",
+            "sap.m.ActionListItem"
+        ],
+        "body": [
+            "var ui5ActionListItem = new sap.m.ActionListItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ActionListItem"
+    },
+    "sap.m.ActionSelect": {
+        "prefix": [
+            "ui5-actionselect",
+            "sap.m.ActionSelect"
+        ],
+        "body": [
+            "var ui5ActionSelect = new sap.m.ActionSelect({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ActionSelect"
+    },
+    "sap.m.ActionSheet": {
+        "prefix": [
+            "ui5-actionsheet",
+            "sap.m.ActionSheet"
+        ],
+        "body": [
+            "var ui5ActionSheet = new sap.m.ActionSheet({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ActionSheet"
+    },
+    "sap.m.App": {
+        "prefix": [
+            "ui5-app",
+            "sap.m.App"
+        ],
+        "body": [
+            "var ui5App = new sap.m.App({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.App"
+    },
+    "sap.m.Bar": {
+        "prefix": [
+            "ui5-bar",
+            "sap.m.Bar"
+        ],
+        "body": [
+            "var ui5Bar = new sap.m.Bar({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Bar"
+    },
+    "sap.m.Breadcrumbs": {
+        "prefix": [
+            "ui5-breadcrumbs",
+            "sap.m.Breadcrumbs"
+        ],
+        "body": [
+            "var ui5Breadcrumbs = new sap.m.Breadcrumbs({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Breadcrumbs"
+    },
+    "sap.m.BusyDialog": {
+        "prefix": [
+            "ui5-busydialog",
+            "sap.m.BusyDialog"
+        ],
+        "body": [
+            "var ui5BusyDialog = new sap.m.BusyDialog({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.BusyDialog"
+    },
+    "sap.m.BusyIndicator": {
+        "prefix": [
+            "ui5-busyindicator",
+            "sap.m.BusyIndicator"
+        ],
+        "body": [
+            "var ui5BusyIndicator = new sap.m.BusyIndicator({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.BusyIndicator"
+    },
+    "sap.m.Button": {
+        "prefix": [
+            "ui5-button",
+            "sap.m.Button"
+        ],
+        "body": [
+            "var ui5Button = new sap.m.Button({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Button"
+    },
+    "sap.m.Carousel": {
+        "prefix": [
+            "ui5-carousel",
+            "sap.m.Carousel"
+        ],
+        "body": [
+            "var ui5Carousel = new sap.m.Carousel({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Carousel"
+    },
+    "sap.m.CheckBox": {
+        "prefix": [
+            "ui5-checkbox",
+            "sap.m.CheckBox"
+        ],
+        "body": [
+            "var ui5CheckBox = new sap.m.CheckBox({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.CheckBox"
+    },
+    "sap.m.Column": {
+        "prefix": [
+            "ui5-column",
+            "sap.m.Column"
+        ],
+        "body": [
+            "var ui5Column = new sap.m.Column({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Column"
+    },
+    "sap.m.ColumnListItem": {
+        "prefix": [
+            "ui5-columnlistitem",
+            "sap.m.ColumnListItem"
+        ],
+        "body": [
+            "var ui5ColumnListItem = new sap.m.ColumnListItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ColumnListItem"
+    },
+    "sap.m.ComboBox": {
+        "prefix": [
+            "ui5-combobox",
+            "sap.m.ComboBox"
+        ],
+        "body": [
+            "var ui5ComboBox = new sap.m.ComboBox({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ComboBox"
+    },
+    "sap.m.ComboBoxBase": {
+        "prefix": [
+            "ui5-comboboxbase",
+            "sap.m.ComboBoxBase"
+        ],
+        "body": [
+            "var ui5ComboBoxBase = new sap.m.ComboBoxBase({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ComboBoxBase"
+    },
+    "sap.m.ComboBoxTextField": {
+        "prefix": [
+            "ui5-comboboxtextfield",
+            "sap.m.ComboBoxTextField"
+        ],
+        "body": [
+            "var ui5ComboBoxTextField = new sap.m.ComboBoxTextField({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ComboBoxTextField"
+    },
+    "sap.m.CustomListItem": {
+        "prefix": [
+            "ui5-customlistitem",
+            "sap.m.CustomListItem"
+        ],
+        "body": [
+            "var ui5CustomListItem = new sap.m.CustomListItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.CustomListItem"
+    },
+    "sap.m.CustomTile": {
+        "prefix": [
+            "ui5-customtile",
+            "sap.m.CustomTile"
+        ],
+        "body": [
+            "var ui5CustomTile = new sap.m.CustomTile({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.CustomTile"
+    },
+    "sap.m.DatePicker": {
+        "prefix": [
+            "ui5-datepicker",
+            "sap.m.DatePicker"
+        ],
+        "body": [
+            "var ui5DatePicker = new sap.m.DatePicker({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.DatePicker"
+    },
+    "sap.m.DateRangeSelection": {
+        "prefix": [
+            "ui5-daterangeselection",
+            "sap.m.DateRangeSelection"
+        ],
+        "body": [
+            "var ui5DateRangeSelection = new sap.m.DateRangeSelection({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.DateRangeSelection"
+    },
+    "sap.m.DateTimeInput": {
+        "prefix": [
+            "ui5-datetimeinput",
+            "sap.m.DateTimeInput"
+        ],
+        "body": [
+            "var ui5DateTimeInput = new sap.m.DateTimeInput({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.DateTimeInput"
+    },
+    "sap.m.DateTimePicker": {
+        "prefix": [
+            "ui5-datetimepicker",
+            "sap.m.DateTimePicker"
+        ],
+        "body": [
+            "var ui5DateTimePicker = new sap.m.DateTimePicker({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.DateTimePicker"
+    },
+    "sap.m.Dialog": {
+        "prefix": [
+            "ui5-dialog",
+            "sap.m.Dialog"
+        ],
+        "body": [
+            "var ui5Dialog = new sap.m.Dialog({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Dialog"
+    },
+    "sap.m.DisplayListItem": {
+        "prefix": [
+            "ui5-displaylistitem",
+            "sap.m.DisplayListItem"
+        ],
+        "body": [
+            "var ui5DisplayListItem = new sap.m.DisplayListItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.DisplayListItem"
+    },
+    "sap.m.DraftIndicator": {
+        "prefix": [
+            "ui5-draftindicator",
+            "sap.m.DraftIndicator"
+        ],
+        "body": [
+            "var ui5DraftIndicator = new sap.m.DraftIndicator({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.DraftIndicator"
+    },
+    "sap.m.FacetFilter": {
+        "prefix": [
+            "ui5-facetfilter",
+            "sap.m.FacetFilter"
+        ],
+        "body": [
+            "var ui5FacetFilter = new sap.m.FacetFilter({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.FacetFilter"
+    },
+    "sap.m.FacetFilterItem": {
+        "prefix": [
+            "ui5-facetfilteritem",
+            "sap.m.FacetFilterItem"
+        ],
+        "body": [
+            "var ui5FacetFilterItem = new sap.m.FacetFilterItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.FacetFilterItem"
+    },
+    "sap.m.FacetFilterList": {
+        "prefix": [
+            "ui5-facetfilterlist",
+            "sap.m.FacetFilterList"
+        ],
+        "body": [
+            "var ui5FacetFilterList = new sap.m.FacetFilterList({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.FacetFilterList"
+    },
+    "sap.m.FeedContent": {
+        "prefix": [
+            "ui5-feedcontent",
+            "sap.m.FeedContent"
+        ],
+        "body": [
+            "var ui5FeedContent = new sap.m.FeedContent({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.FeedContent"
+    },
+    "sap.m.FeedInput": {
+        "prefix": [
+            "ui5-feedinput",
+            "sap.m.FeedInput"
+        ],
+        "body": [
+            "var ui5FeedInput = new sap.m.FeedInput({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.FeedInput"
+    },
+    "sap.m.FeedListItem": {
+        "prefix": [
+            "ui5-feedlistitem",
+            "sap.m.FeedListItem"
+        ],
+        "body": [
+            "var ui5FeedListItem = new sap.m.FeedListItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.FeedListItem"
+    },
+    "sap.m.FlexBox": {
+        "prefix": [
+            "ui5-flexbox",
+            "sap.m.FlexBox"
+        ],
+        "body": [
+            "var ui5FlexBox = new sap.m.FlexBox({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.FlexBox"
+    },
+    "sap.m.FlexItemData": {
+        "prefix": [
+            "ui5-flexitemdata",
+            "sap.m.FlexItemData"
+        ],
+        "body": [
+            "var ui5FlexItemData = new sap.m.FlexItemData({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.FlexItemData"
+    },
+    "sap.m.FormattedText": {
+        "prefix": [
+            "ui5-formattedtext",
+            "sap.m.FormattedText"
+        ],
+        "body": [
+            "var ui5FormattedText = new sap.m.FormattedText({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.FormattedText"
+    },
+    "sap.m.GenericTile": {
+        "prefix": [
+            "ui5-generictile",
+            "sap.m.GenericTile"
+        ],
+        "body": [
+            "var ui5GenericTile = new sap.m.GenericTile({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.GenericTile"
+    },
+    "sap.m.GroupHeaderListItem": {
+        "prefix": [
+            "ui5-groupheaderlistitem",
+            "sap.m.GroupHeaderListItem"
+        ],
+        "body": [
+            "var ui5GroupHeaderListItem = new sap.m.GroupHeaderListItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.GroupHeaderListItem"
+    },
+    "sap.m.GrowingEnablement": {
+        "prefix": [
+            "ui5-growingenablement",
+            "sap.m.GrowingEnablement"
+        ],
+        "body": [
+            "var ui5GrowingEnablement = new sap.m.GrowingEnablement({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.GrowingEnablement"
+    },
+    "sap.m.GrowingList": {
+        "prefix": [
+            "ui5-growinglist",
+            "sap.m.GrowingList"
+        ],
+        "body": [
+            "var ui5GrowingList = new sap.m.GrowingList({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.GrowingList"
+    },
+    "sap.m.HBox": {
+        "prefix": [
+            "ui5-hbox",
+            "sap.m.HBox"
+        ],
+        "body": [
+            "var ui5HBox = new sap.m.HBox({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.HBox"
+    },
+    "sap.m.HeaderContainer": {
+        "prefix": [
+            "ui5-headercontainer",
+            "sap.m.HeaderContainer"
+        ],
+        "body": [
+            "var ui5HeaderContainer = new sap.m.HeaderContainer({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.HeaderContainer"
+    },
+    "sap.m.IBarInPageEnabler": {
+        "prefix": [
+            "ui5-ibarinpageenabler",
+            "sap.m.IBarInPageEnabler"
+        ],
+        "body": [
+            "var ui5IBarInPageEnabler = new sap.m.IBarInPageEnabler({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.IBarInPageEnabler"
+    },
+    "sap.m.IconTabBar": {
+        "prefix": [
+            "ui5-icontabbar",
+            "sap.m.IconTabBar"
+        ],
+        "body": [
+            "var ui5IconTabBar = new sap.m.IconTabBar({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.IconTabBar"
+    },
+    "sap.m.IconTabFilter": {
+        "prefix": [
+            "ui5-icontabfilter",
+            "sap.m.IconTabFilter"
+        ],
+        "body": [
+            "var ui5IconTabFilter = new sap.m.IconTabFilter({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.IconTabFilter"
+    },
+    "sap.m.IconTabHeader": {
+        "prefix": [
+            "ui5-icontabheader",
+            "sap.m.IconTabHeader"
+        ],
+        "body": [
+            "var ui5IconTabHeader = new sap.m.IconTabHeader({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.IconTabHeader"
+    },
+    "sap.m.IconTabSeparator": {
+        "prefix": [
+            "ui5-icontabseparator",
+            "sap.m.IconTabSeparator"
+        ],
+        "body": [
+            "var ui5IconTabSeparator = new sap.m.IconTabSeparator({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.IconTabSeparator"
+    },
+    "sap.m.Image": {
+        "prefix": [
+            "ui5-image",
+            "sap.m.Image"
+        ],
+        "body": [
+            "var ui5Image = new sap.m.Image({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Image"
+    },
+    "sap.m.ImageContent": {
+        "prefix": [
+            "ui5-imagecontent",
+            "sap.m.ImageContent"
+        ],
+        "body": [
+            "var ui5ImageContent = new sap.m.ImageContent({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ImageContent"
+    },
+    "sap.m.Input": {
+        "prefix": [
+            "ui5-input",
+            "sap.m.Input"
+        ],
+        "body": [
+            "var ui5Input = new sap.m.Input({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Input"
+    },
+    "sap.m.InputBase": {
+        "prefix": [
+            "ui5-inputbase",
+            "sap.m.InputBase"
+        ],
+        "body": [
+            "var ui5InputBase = new sap.m.InputBase({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.InputBase"
+    },
+    "sap.m.InputListItem": {
+        "prefix": [
+            "ui5-inputlistitem",
+            "sap.m.InputListItem"
+        ],
+        "body": [
+            "var ui5InputListItem = new sap.m.InputListItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.InputListItem"
+    },
+    "sap.m.Label": {
+        "prefix": [
+            "ui5-label",
+            "sap.m.Label"
+        ],
+        "body": [
+            "var ui5Label = new sap.m.Label({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Label"
+    },
+    "sap.m.LightBox": {
+        "prefix": [
+            "ui5-lightbox",
+            "sap.m.LightBox"
+        ],
+        "body": [
+            "var ui5LightBox = new sap.m.LightBox({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.LightBox"
+    },
+    "sap.m.LightBoxItem": {
+        "prefix": [
+            "ui5-lightboxitem",
+            "sap.m.LightBoxItem"
+        ],
+        "body": [
+            "var ui5LightBoxItem = new sap.m.LightBoxItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.LightBoxItem"
+    },
+    "sap.m.Link": {
+        "prefix": [
+            "ui5-link",
+            "sap.m.Link"
+        ],
+        "body": [
+            "var ui5Link = new sap.m.Link({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Link"
+    },
+    "sap.m.List": {
+        "prefix": [
+            "ui5-list",
+            "sap.m.List"
+        ],
+        "body": [
+            "var ui5List = new sap.m.List({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.List"
+    },
+    "sap.m.ListBase": {
+        "prefix": [
+            "ui5-listbase",
+            "sap.m.ListBase"
+        ],
+        "body": [
+            "var ui5ListBase = new sap.m.ListBase({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ListBase"
+    },
+    "sap.m.ListItemBase": {
+        "prefix": [
+            "ui5-listitembase",
+            "sap.m.ListItemBase"
+        ],
+        "body": [
+            "var ui5ListItemBase = new sap.m.ListItemBase({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ListItemBase"
+    },
+    "sap.m.MaskInput": {
+        "prefix": [
+            "ui5-maskinput",
+            "sap.m.MaskInput"
+        ],
+        "body": [
+            "var ui5MaskInput = new sap.m.MaskInput({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.MaskInput"
+    },
+    "sap.m.MaskInputRule": {
+        "prefix": [
+            "ui5-maskinputrule",
+            "sap.m.MaskInputRule"
+        ],
+        "body": [
+            "var ui5MaskInputRule = new sap.m.MaskInputRule({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.MaskInputRule"
+    },
+    "sap.m.Menu": {
+        "prefix": [
+            "ui5-menu",
+            "sap.m.Menu"
+        ],
+        "body": [
+            "var ui5Menu = new sap.m.Menu({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Menu"
+    },
+    "sap.m.MenuButton": {
+        "prefix": [
+            "ui5-menubutton",
+            "sap.m.MenuButton"
+        ],
+        "body": [
+            "var ui5MenuButton = new sap.m.MenuButton({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.MenuButton"
+    },
+    "sap.m.MenuItem": {
+        "prefix": [
+            "ui5-menuitem",
+            "sap.m.MenuItem"
+        ],
+        "body": [
+            "var ui5MenuItem = new sap.m.MenuItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.MenuItem"
+    },
+    "sap.m.MessagePage": {
+        "prefix": [
+            "ui5-messagepage",
+            "sap.m.MessagePage"
+        ],
+        "body": [
+            "var ui5MessagePage = new sap.m.MessagePage({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.MessagePage"
+    },
+    "sap.m.MessagePopover": {
+        "prefix": [
+            "ui5-messagepopover",
+            "sap.m.MessagePopover"
+        ],
+        "body": [
+            "var ui5MessagePopover = new sap.m.MessagePopover({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.MessagePopover"
+    },
+    "sap.m.MessagePopoverItem": {
+        "prefix": [
+            "ui5-messagepopoveritem",
+            "sap.m.MessagePopoverItem"
+        ],
+        "body": [
+            "var ui5MessagePopoverItem = new sap.m.MessagePopoverItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.MessagePopoverItem"
+    },
+    "sap.m.MessageStrip": {
+        "prefix": [
+            "ui5-messagestrip",
+            "sap.m.MessageStrip"
+        ],
+        "body": [
+            "var ui5MessageStrip = new sap.m.MessageStrip({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.MessageStrip"
+    },
+    "sap.m.MultiComboBox": {
+        "prefix": [
+            "ui5-multicombobox",
+            "sap.m.MultiComboBox"
+        ],
+        "body": [
+            "var ui5MultiComboBox = new sap.m.MultiComboBox({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.MultiComboBox"
+    },
+    "sap.m.MultiInput": {
+        "prefix": [
+            "ui5-multiinput",
+            "sap.m.MultiInput"
+        ],
+        "body": [
+            "var ui5MultiInput = new sap.m.MultiInput({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.MultiInput"
+    },
+    "sap.m.NavContainer": {
+        "prefix": [
+            "ui5-navcontainer",
+            "sap.m.NavContainer"
+        ],
+        "body": [
+            "var ui5NavContainer = new sap.m.NavContainer({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.NavContainer"
+    },
+    "sap.m.NewsContent": {
+        "prefix": [
+            "ui5-newscontent",
+            "sap.m.NewsContent"
+        ],
+        "body": [
+            "var ui5NewsContent = new sap.m.NewsContent({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.NewsContent"
+    },
+    "sap.m.NotificationListBase": {
+        "prefix": [
+            "ui5-notificationlistbase",
+            "sap.m.NotificationListBase"
+        ],
+        "body": [
+            "var ui5NotificationListBase = new sap.m.NotificationListBase({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.NotificationListBase"
+    },
+    "sap.m.NotificationListGroup": {
+        "prefix": [
+            "ui5-notificationlistgroup",
+            "sap.m.NotificationListGroup"
+        ],
+        "body": [
+            "var ui5NotificationListGroup = new sap.m.NotificationListGroup({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.NotificationListGroup"
+    },
+    "sap.m.NotificationListItem": {
+        "prefix": [
+            "ui5-notificationlistitem",
+            "sap.m.NotificationListItem"
+        ],
+        "body": [
+            "var ui5NotificationListItem = new sap.m.NotificationListItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.NotificationListItem"
+    },
+    "sap.m.NumericContent": {
+        "prefix": [
+            "ui5-numericcontent",
+            "sap.m.NumericContent"
+        ],
+        "body": [
+            "var ui5NumericContent = new sap.m.NumericContent({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.NumericContent"
+    },
+    "sap.m.ObjectAttribute": {
+        "prefix": [
+            "ui5-objectattribute",
+            "sap.m.ObjectAttribute"
+        ],
+        "body": [
+            "var ui5ObjectAttribute = new sap.m.ObjectAttribute({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ObjectAttribute"
+    },
+    "sap.m.ObjectHeader": {
+        "prefix": [
+            "ui5-objectheader",
+            "sap.m.ObjectHeader"
+        ],
+        "body": [
+            "var ui5ObjectHeader = new sap.m.ObjectHeader({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ObjectHeader"
+    },
+    "sap.m.ObjectIdentifier": {
+        "prefix": [
+            "ui5-objectidentifier",
+            "sap.m.ObjectIdentifier"
+        ],
+        "body": [
+            "var ui5ObjectIdentifier = new sap.m.ObjectIdentifier({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ObjectIdentifier"
+    },
+    "sap.m.ObjectListItem": {
+        "prefix": [
+            "ui5-objectlistitem",
+            "sap.m.ObjectListItem"
+        ],
+        "body": [
+            "var ui5ObjectListItem = new sap.m.ObjectListItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ObjectListItem"
+    },
+    "sap.m.ObjectMarker": {
+        "prefix": [
+            "ui5-objectmarker",
+            "sap.m.ObjectMarker"
+        ],
+        "body": [
+            "var ui5ObjectMarker = new sap.m.ObjectMarker({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ObjectMarker"
+    },
+    "sap.m.ObjectNumber": {
+        "prefix": [
+            "ui5-objectnumber",
+            "sap.m.ObjectNumber"
+        ],
+        "body": [
+            "var ui5ObjectNumber = new sap.m.ObjectNumber({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ObjectNumber"
+    },
+    "sap.m.ObjectStatus": {
+        "prefix": [
+            "ui5-objectstatus",
+            "sap.m.ObjectStatus"
+        ],
+        "body": [
+            "var ui5ObjectStatus = new sap.m.ObjectStatus({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ObjectStatus"
+    },
+    "sap.m.OverflowToolbar": {
+        "prefix": [
+            "ui5-overflowtoolbar",
+            "sap.m.OverflowToolbar"
+        ],
+        "body": [
+            "var ui5OverflowToolbar = new sap.m.OverflowToolbar({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.OverflowToolbar"
+    },
+    "sap.m.OverflowToolbarLayoutData": {
+        "prefix": [
+            "ui5-overflowtoolbarlayoutdata",
+            "sap.m.OverflowToolbarLayoutData"
+        ],
+        "body": [
+            "var ui5OverflowToolbarLayoutData = new sap.m.OverflowToolbarLayoutData({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.OverflowToolbarLayoutData"
+    },
+    "sap.m.P13nColumnsItem": {
+        "prefix": [
+            "ui5-p13ncolumnsitem",
+            "sap.m.P13nColumnsItem"
+        ],
+        "body": [
+            "var ui5P13nColumnsItem = new sap.m.P13nColumnsItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nColumnsItem"
+    },
+    "sap.m.P13nColumnsPanel": {
+        "prefix": [
+            "ui5-p13ncolumnspanel",
+            "sap.m.P13nColumnsPanel"
+        ],
+        "body": [
+            "var ui5P13nColumnsPanel = new sap.m.P13nColumnsPanel({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nColumnsPanel"
+    },
+    "sap.m.P13nConditionPanel": {
+        "prefix": [
+            "ui5-p13nconditionpanel",
+            "sap.m.P13nConditionPanel"
+        ],
+        "body": [
+            "var ui5P13nConditionPanel = new sap.m.P13nConditionPanel({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nConditionPanel"
+    },
+    "sap.m.P13nDialog": {
+        "prefix": [
+            "ui5-p13ndialog",
+            "sap.m.P13nDialog"
+        ],
+        "body": [
+            "var ui5P13nDialog = new sap.m.P13nDialog({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nDialog"
+    },
+    "sap.m.P13nDimMeasureItem": {
+        "prefix": [
+            "ui5-p13ndimmeasureitem",
+            "sap.m.P13nDimMeasureItem"
+        ],
+        "body": [
+            "var ui5P13nDimMeasureItem = new sap.m.P13nDimMeasureItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nDimMeasureItem"
+    },
+    "sap.m.P13nDimMeasurePanel": {
+        "prefix": [
+            "ui5-p13ndimmeasurepanel",
+            "sap.m.P13nDimMeasurePanel"
+        ],
+        "body": [
+            "var ui5P13nDimMeasurePanel = new sap.m.P13nDimMeasurePanel({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nDimMeasurePanel"
+    },
+    "sap.m.P13nFilterItem": {
+        "prefix": [
+            "ui5-p13nfilteritem",
+            "sap.m.P13nFilterItem"
+        ],
+        "body": [
+            "var ui5P13nFilterItem = new sap.m.P13nFilterItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nFilterItem"
+    },
+    "sap.m.P13nFilterPanel": {
+        "prefix": [
+            "ui5-p13nfilterpanel",
+            "sap.m.P13nFilterPanel"
+        ],
+        "body": [
+            "var ui5P13nFilterPanel = new sap.m.P13nFilterPanel({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nFilterPanel"
+    },
+    "sap.m.P13nGroupItem": {
+        "prefix": [
+            "ui5-p13ngroupitem",
+            "sap.m.P13nGroupItem"
+        ],
+        "body": [
+            "var ui5P13nGroupItem = new sap.m.P13nGroupItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nGroupItem"
+    },
+    "sap.m.P13nGroupPanel": {
+        "prefix": [
+            "ui5-p13ngrouppanel",
+            "sap.m.P13nGroupPanel"
+        ],
+        "body": [
+            "var ui5P13nGroupPanel = new sap.m.P13nGroupPanel({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nGroupPanel"
+    },
+    "sap.m.P13nItem": {
+        "prefix": [
+            "ui5-p13nitem",
+            "sap.m.P13nItem"
+        ],
+        "body": [
+            "var ui5P13nItem = new sap.m.P13nItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nItem"
+    },
+    "sap.m.P13nPanel": {
+        "prefix": [
+            "ui5-p13npanel",
+            "sap.m.P13nPanel"
+        ],
+        "body": [
+            "var ui5P13nPanel = new sap.m.P13nPanel({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nPanel"
+    },
+    "sap.m.P13nSortItem": {
+        "prefix": [
+            "ui5-p13nsortitem",
+            "sap.m.P13nSortItem"
+        ],
+        "body": [
+            "var ui5P13nSortItem = new sap.m.P13nSortItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nSortItem"
+    },
+    "sap.m.P13nSortPanel": {
+        "prefix": [
+            "ui5-p13nsortpanel",
+            "sap.m.P13nSortPanel"
+        ],
+        "body": [
+            "var ui5P13nSortPanel = new sap.m.P13nSortPanel({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.P13nSortPanel"
+    },
+    "sap.m.Page": {
+        "prefix": [
+            "ui5-page",
+            "sap.m.Page"
+        ],
+        "body": [
+            "var ui5Page = new sap.m.Page({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Page"
+    },
+    "sap.m.PageAccessibleLandmarkInfo": {
+        "prefix": [
+            "ui5-pageaccessiblelandmarkinfo",
+            "sap.m.PageAccessibleLandmarkInfo"
+        ],
+        "body": [
+            "var ui5PageAccessibleLandmarkInfo = new sap.m.PageAccessibleLandmarkInfo({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.PageAccessibleLandmarkInfo"
+    },
+    "sap.m.PagingButton": {
+        "prefix": [
+            "ui5-pagingbutton",
+            "sap.m.PagingButton"
+        ],
+        "body": [
+            "var ui5PagingButton = new sap.m.PagingButton({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.PagingButton"
+    },
+    "sap.m.Panel": {
+        "prefix": [
+            "ui5-panel",
+            "sap.m.Panel"
+        ],
+        "body": [
+            "var ui5Panel = new sap.m.Panel({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Panel"
+    },
+    "sap.m.PlanningCalendar": {
+        "prefix": [
+            "ui5-planningcalendar",
+            "sap.m.PlanningCalendar"
+        ],
+        "body": [
+            "var ui5PlanningCalendar = new sap.m.PlanningCalendar({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.PlanningCalendar"
+    },
+    "sap.m.PlanningCalendarRow": {
+        "prefix": [
+            "ui5-planningcalendarrow",
+            "sap.m.PlanningCalendarRow"
+        ],
+        "body": [
+            "var ui5PlanningCalendarRow = new sap.m.PlanningCalendarRow({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.PlanningCalendarRow"
+    },
+    "sap.m.PlanningCalendarView": {
+        "prefix": [
+            "ui5-planningcalendarview",
+            "sap.m.PlanningCalendarView"
+        ],
+        "body": [
+            "var ui5PlanningCalendarView = new sap.m.PlanningCalendarView({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.PlanningCalendarView"
+    },
+    "sap.m.Popover": {
+        "prefix": [
+            "ui5-popover",
+            "sap.m.Popover"
+        ],
+        "body": [
+            "var ui5Popover = new sap.m.Popover({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Popover"
+    },
+    "sap.m.ProgressIndicator": {
+        "prefix": [
+            "ui5-progressindicator",
+            "sap.m.ProgressIndicator"
+        ],
+        "body": [
+            "var ui5ProgressIndicator = new sap.m.ProgressIndicator({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ProgressIndicator"
+    },
+    "sap.m.PullToRefresh": {
+        "prefix": [
+            "ui5-pulltorefresh",
+            "sap.m.PullToRefresh"
+        ],
+        "body": [
+            "var ui5PullToRefresh = new sap.m.PullToRefresh({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.PullToRefresh"
+    },
+    "sap.m.QuickView": {
+        "prefix": [
+            "ui5-quickview",
+            "sap.m.QuickView"
+        ],
+        "body": [
+            "var ui5QuickView = new sap.m.QuickView({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.QuickView"
+    },
+    "sap.m.QuickViewBase": {
+        "prefix": [
+            "ui5-quickviewbase",
+            "sap.m.QuickViewBase"
+        ],
+        "body": [
+            "var ui5QuickViewBase = new sap.m.QuickViewBase({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.QuickViewBase"
+    },
+    "sap.m.QuickViewCard": {
+        "prefix": [
+            "ui5-quickviewcard",
+            "sap.m.QuickViewCard"
+        ],
+        "body": [
+            "var ui5QuickViewCard = new sap.m.QuickViewCard({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.QuickViewCard"
+    },
+    "sap.m.QuickViewGroup": {
+        "prefix": [
+            "ui5-quickviewgroup",
+            "sap.m.QuickViewGroup"
+        ],
+        "body": [
+            "var ui5QuickViewGroup = new sap.m.QuickViewGroup({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.QuickViewGroup"
+    },
+    "sap.m.QuickViewGroupElement": {
+        "prefix": [
+            "ui5-quickviewgroupelement",
+            "sap.m.QuickViewGroupElement"
+        ],
+        "body": [
+            "var ui5QuickViewGroupElement = new sap.m.QuickViewGroupElement({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.QuickViewGroupElement"
+    },
+    "sap.m.QuickViewPage": {
+        "prefix": [
+            "ui5-quickviewpage",
+            "sap.m.QuickViewPage"
+        ],
+        "body": [
+            "var ui5QuickViewPage = new sap.m.QuickViewPage({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.QuickViewPage"
+    },
+    "sap.m.RadioButton": {
+        "prefix": [
+            "ui5-radiobutton",
+            "sap.m.RadioButton"
+        ],
+        "body": [
+            "var ui5RadioButton = new sap.m.RadioButton({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.RadioButton"
+    },
+    "sap.m.RadioButtonGroup": {
+        "prefix": [
+            "ui5-radiobuttongroup",
+            "sap.m.RadioButtonGroup"
+        ],
+        "body": [
+            "var ui5RadioButtonGroup = new sap.m.RadioButtonGroup({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.RadioButtonGroup"
+    },
+    "sap.m.RangeSlider": {
+        "prefix": [
+            "ui5-rangeslider",
+            "sap.m.RangeSlider"
+        ],
+        "body": [
+            "var ui5RangeSlider = new sap.m.RangeSlider({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.RangeSlider"
+    },
+    "sap.m.RatingIndicator": {
+        "prefix": [
+            "ui5-ratingindicator",
+            "sap.m.RatingIndicator"
+        ],
+        "body": [
+            "var ui5RatingIndicator = new sap.m.RatingIndicator({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.RatingIndicator"
+    },
+    "sap.m.ResponsivePopover": {
+        "prefix": [
+            "ui5-responsivepopover",
+            "sap.m.ResponsivePopover"
+        ],
+        "body": [
+            "var ui5ResponsivePopover = new sap.m.ResponsivePopover({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ResponsivePopover"
+    },
+    "sap.m.routing.RouteMatchedHandler": {
+        "prefix": [
+            "ui5-routematchedhandler",
+            "sap.m.routing.RouteMatchedHandler"
+        ],
+        "body": [
+            "var ui5RouteMatchedHandler = new sap.m.routing.RouteMatchedHandler({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.routing.RouteMatchedHandler"
+    },
+    "sap.m.routing.Router": {
+        "prefix": [
+            "ui5-router",
+            "sap.m.routing.Router"
+        ],
+        "body": [
+            "var ui5Router = new sap.m.routing.Router({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.routing.Router"
+    },
+    "sap.m.routing.TargetHandler": {
+        "prefix": [
+            "ui5-targethandler",
+            "sap.m.routing.TargetHandler"
+        ],
+        "body": [
+            "var ui5TargetHandler = new sap.m.routing.TargetHandler({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.routing.TargetHandler"
+    },
+    "sap.m.routing.Targets": {
+        "prefix": [
+            "ui5-targets",
+            "sap.m.routing.Targets"
+        ],
+        "body": [
+            "var ui5Targets = new sap.m.routing.Targets({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.routing.Targets"
+    },
+    "sap.m.ScrollContainer": {
+        "prefix": [
+            "ui5-scrollcontainer",
+            "sap.m.ScrollContainer"
+        ],
+        "body": [
+            "var ui5ScrollContainer = new sap.m.ScrollContainer({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ScrollContainer"
+    },
+    "sap.m.SearchField": {
+        "prefix": [
+            "ui5-searchfield",
+            "sap.m.SearchField"
+        ],
+        "body": [
+            "var ui5SearchField = new sap.m.SearchField({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.SearchField"
+    },
+    "sap.m.SegmentedButton": {
+        "prefix": [
+            "ui5-segmentedbutton",
+            "sap.m.SegmentedButton"
+        ],
+        "body": [
+            "var ui5SegmentedButton = new sap.m.SegmentedButton({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.SegmentedButton"
+    },
+    "sap.m.SegmentedButtonItem": {
+        "prefix": [
+            "ui5-segmentedbuttonitem",
+            "sap.m.SegmentedButtonItem"
+        ],
+        "body": [
+            "var ui5SegmentedButtonItem = new sap.m.SegmentedButtonItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.SegmentedButtonItem"
+    },
+    "sap.m.Select": {
+        "prefix": [
+            "ui5-select",
+            "sap.m.Select"
+        ],
+        "body": [
+            "var ui5Select = new sap.m.Select({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Select"
+    },
+    "sap.m.SelectDialog": {
+        "prefix": [
+            "ui5-selectdialog",
+            "sap.m.SelectDialog"
+        ],
+        "body": [
+            "var ui5SelectDialog = new sap.m.SelectDialog({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.SelectDialog"
+    },
+    "sap.m.SelectList": {
+        "prefix": [
+            "ui5-selectlist",
+            "sap.m.SelectList"
+        ],
+        "body": [
+            "var ui5SelectList = new sap.m.SelectList({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.SelectList"
+    },
+    "sap.m.semantic.AddAction": {
+        "prefix": [
+            "ui5-addaction",
+            "sap.m.semantic.AddAction"
+        ],
+        "body": [
+            "var ui5AddAction = new sap.m.semantic.AddAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.AddAction"
+    },
+    "sap.m.semantic.CancelAction": {
+        "prefix": [
+            "ui5-cancelaction",
+            "sap.m.semantic.CancelAction"
+        ],
+        "body": [
+            "var ui5CancelAction = new sap.m.semantic.CancelAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.CancelAction"
+    },
+    "sap.m.semantic.DeleteAction": {
+        "prefix": [
+            "ui5-deleteaction",
+            "sap.m.semantic.DeleteAction"
+        ],
+        "body": [
+            "var ui5DeleteAction = new sap.m.semantic.DeleteAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.DeleteAction"
+    },
+    "sap.m.semantic.DetailPage": {
+        "prefix": [
+            "ui5-detailpage",
+            "sap.m.semantic.DetailPage"
+        ],
+        "body": [
+            "var ui5DetailPage = new sap.m.semantic.DetailPage({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.DetailPage"
+    },
+    "sap.m.semantic.DiscussInJamAction": {
+        "prefix": [
+            "ui5-discussinjamaction",
+            "sap.m.semantic.DiscussInJamAction"
+        ],
+        "body": [
+            "var ui5DiscussInJamAction = new sap.m.semantic.DiscussInJamAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.DiscussInJamAction"
+    },
+    "sap.m.semantic.EditAction": {
+        "prefix": [
+            "ui5-editaction",
+            "sap.m.semantic.EditAction"
+        ],
+        "body": [
+            "var ui5EditAction = new sap.m.semantic.EditAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.EditAction"
+    },
+    "sap.m.semantic.FavoriteAction": {
+        "prefix": [
+            "ui5-favoriteaction",
+            "sap.m.semantic.FavoriteAction"
+        ],
+        "body": [
+            "var ui5FavoriteAction = new sap.m.semantic.FavoriteAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.FavoriteAction"
+    },
+    "sap.m.semantic.FilterAction": {
+        "prefix": [
+            "ui5-filteraction",
+            "sap.m.semantic.FilterAction"
+        ],
+        "body": [
+            "var ui5FilterAction = new sap.m.semantic.FilterAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.FilterAction"
+    },
+    "sap.m.semantic.FilterSelect": {
+        "prefix": [
+            "ui5-filterselect",
+            "sap.m.semantic.FilterSelect"
+        ],
+        "body": [
+            "var ui5FilterSelect = new sap.m.semantic.FilterSelect({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.FilterSelect"
+    },
+    "sap.m.semantic.FlagAction": {
+        "prefix": [
+            "ui5-flagaction",
+            "sap.m.semantic.FlagAction"
+        ],
+        "body": [
+            "var ui5FlagAction = new sap.m.semantic.FlagAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.FlagAction"
+    },
+    "sap.m.semantic.ForwardAction": {
+        "prefix": [
+            "ui5-forwardaction",
+            "sap.m.semantic.ForwardAction"
+        ],
+        "body": [
+            "var ui5ForwardAction = new sap.m.semantic.ForwardAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.ForwardAction"
+    },
+    "sap.m.semantic.FullscreenPage": {
+        "prefix": [
+            "ui5-fullscreenpage",
+            "sap.m.semantic.FullscreenPage"
+        ],
+        "body": [
+            "var ui5FullscreenPage = new sap.m.semantic.FullscreenPage({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.FullscreenPage"
+    },
+    "sap.m.semantic.GroupAction": {
+        "prefix": [
+            "ui5-groupaction",
+            "sap.m.semantic.GroupAction"
+        ],
+        "body": [
+            "var ui5GroupAction = new sap.m.semantic.GroupAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.GroupAction"
+    },
+    "sap.m.semantic.GroupSelect": {
+        "prefix": [
+            "ui5-groupselect",
+            "sap.m.semantic.GroupSelect"
+        ],
+        "body": [
+            "var ui5GroupSelect = new sap.m.semantic.GroupSelect({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.GroupSelect"
+    },
+    "sap.m.semantic.MainAction": {
+        "prefix": [
+            "ui5-mainaction",
+            "sap.m.semantic.MainAction"
+        ],
+        "body": [
+            "var ui5MainAction = new sap.m.semantic.MainAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.MainAction"
+    },
+    "sap.m.semantic.MasterPage": {
+        "prefix": [
+            "ui5-masterpage",
+            "sap.m.semantic.MasterPage"
+        ],
+        "body": [
+            "var ui5MasterPage = new sap.m.semantic.MasterPage({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.MasterPage"
+    },
+    "sap.m.semantic.MessagesIndicator": {
+        "prefix": [
+            "ui5-messagesindicator",
+            "sap.m.semantic.MessagesIndicator"
+        ],
+        "body": [
+            "var ui5MessagesIndicator = new sap.m.semantic.MessagesIndicator({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.MessagesIndicator"
+    },
+    "sap.m.semantic.MultiSelectAction": {
+        "prefix": [
+            "ui5-multiselectaction",
+            "sap.m.semantic.MultiSelectAction"
+        ],
+        "body": [
+            "var ui5MultiSelectAction = new sap.m.semantic.MultiSelectAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.MultiSelectAction"
+    },
+    "sap.m.semantic.NegativeAction": {
+        "prefix": [
+            "ui5-negativeaction",
+            "sap.m.semantic.NegativeAction"
+        ],
+        "body": [
+            "var ui5NegativeAction = new sap.m.semantic.NegativeAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.NegativeAction"
+    },
+    "sap.m.semantic.OpenInAction": {
+        "prefix": [
+            "ui5-openinaction",
+            "sap.m.semantic.OpenInAction"
+        ],
+        "body": [
+            "var ui5OpenInAction = new sap.m.semantic.OpenInAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.OpenInAction"
+    },
+    "sap.m.semantic.PositiveAction": {
+        "prefix": [
+            "ui5-positiveaction",
+            "sap.m.semantic.PositiveAction"
+        ],
+        "body": [
+            "var ui5PositiveAction = new sap.m.semantic.PositiveAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.PositiveAction"
+    },
+    "sap.m.semantic.PrintAction": {
+        "prefix": [
+            "ui5-printaction",
+            "sap.m.semantic.PrintAction"
+        ],
+        "body": [
+            "var ui5PrintAction = new sap.m.semantic.PrintAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.PrintAction"
+    },
+    "sap.m.semantic.SaveAction": {
+        "prefix": [
+            "ui5-saveaction",
+            "sap.m.semantic.SaveAction"
+        ],
+        "body": [
+            "var ui5SaveAction = new sap.m.semantic.SaveAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.SaveAction"
+    },
+    "sap.m.semantic.SemanticButton": {
+        "prefix": [
+            "ui5-semanticbutton",
+            "sap.m.semantic.SemanticButton"
+        ],
+        "body": [
+            "var ui5SemanticButton = new sap.m.semantic.SemanticButton({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.SemanticButton"
+    },
+    "sap.m.semantic.SemanticControl": {
+        "prefix": [
+            "ui5-semanticcontrol",
+            "sap.m.semantic.SemanticControl"
+        ],
+        "body": [
+            "var ui5SemanticControl = new sap.m.semantic.SemanticControl({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.SemanticControl"
+    },
+    "sap.m.semantic.SemanticPage": {
+        "prefix": [
+            "ui5-semanticpage",
+            "sap.m.semantic.SemanticPage"
+        ],
+        "body": [
+            "var ui5SemanticPage = new sap.m.semantic.SemanticPage({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.SemanticPage"
+    },
+    "sap.m.semantic.SemanticSelect": {
+        "prefix": [
+            "ui5-semanticselect",
+            "sap.m.semantic.SemanticSelect"
+        ],
+        "body": [
+            "var ui5SemanticSelect = new sap.m.semantic.SemanticSelect({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.SemanticSelect"
+    },
+    "sap.m.semantic.SemanticToggleButton": {
+        "prefix": [
+            "ui5-semantictogglebutton",
+            "sap.m.semantic.SemanticToggleButton"
+        ],
+        "body": [
+            "var ui5SemanticToggleButton = new sap.m.semantic.SemanticToggleButton({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.SemanticToggleButton"
+    },
+    "sap.m.semantic.SendEmailAction": {
+        "prefix": [
+            "ui5-sendemailaction",
+            "sap.m.semantic.SendEmailAction"
+        ],
+        "body": [
+            "var ui5SendEmailAction = new sap.m.semantic.SendEmailAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.SendEmailAction"
+    },
+    "sap.m.semantic.SendMessageAction": {
+        "prefix": [
+            "ui5-sendmessageaction",
+            "sap.m.semantic.SendMessageAction"
+        ],
+        "body": [
+            "var ui5SendMessageAction = new sap.m.semantic.SendMessageAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.SendMessageAction"
+    },
+    "sap.m.semantic.ShareInJamAction": {
+        "prefix": [
+            "ui5-shareinjamaction",
+            "sap.m.semantic.ShareInJamAction"
+        ],
+        "body": [
+            "var ui5ShareInJamAction = new sap.m.semantic.ShareInJamAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.ShareInJamAction"
+    },
+    "sap.m.semantic.ShareMenuPage": {
+        "prefix": [
+            "ui5-sharemenupage",
+            "sap.m.semantic.ShareMenuPage"
+        ],
+        "body": [
+            "var ui5ShareMenuPage = new sap.m.semantic.ShareMenuPage({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.ShareMenuPage"
+    },
+    "sap.m.semantic.SortAction": {
+        "prefix": [
+            "ui5-sortaction",
+            "sap.m.semantic.SortAction"
+        ],
+        "body": [
+            "var ui5SortAction = new sap.m.semantic.SortAction({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.SortAction"
+    },
+    "sap.m.semantic.SortSelect": {
+        "prefix": [
+            "ui5-sortselect",
+            "sap.m.semantic.SortSelect"
+        ],
+        "body": [
+            "var ui5SortSelect = new sap.m.semantic.SortSelect({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.semantic.SortSelect"
+    },
+    "sap.m.Shell": {
+        "prefix": [
+            "ui5-shell",
+            "sap.m.Shell"
+        ],
+        "body": [
+            "var ui5Shell = new sap.m.Shell({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Shell"
+    },
+    "sap.m.Slider": {
+        "prefix": [
+            "ui5-slider",
+            "sap.m.Slider"
+        ],
+        "body": [
+            "var ui5Slider = new sap.m.Slider({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Slider"
+    },
+    "sap.m.SlideTile": {
+        "prefix": [
+            "ui5-slidetile",
+            "sap.m.SlideTile"
+        ],
+        "body": [
+            "var ui5SlideTile = new sap.m.SlideTile({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.SlideTile"
+    },
+    "sap.m.SplitApp": {
+        "prefix": [
+            "ui5-splitapp",
+            "sap.m.SplitApp"
+        ],
+        "body": [
+            "var ui5SplitApp = new sap.m.SplitApp({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.SplitApp"
+    },
+    "sap.m.SplitContainer": {
+        "prefix": [
+            "ui5-splitcontainer",
+            "sap.m.SplitContainer"
+        ],
+        "body": [
+            "var ui5SplitContainer = new sap.m.SplitContainer({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.SplitContainer"
+    },
+    "sap.m.StandardListItem": {
+        "prefix": [
+            "ui5-standardlistitem",
+            "sap.m.StandardListItem"
+        ],
+        "body": [
+            "var ui5StandardListItem = new sap.m.StandardListItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.StandardListItem"
+    },
+    "sap.m.StandardTile": {
+        "prefix": [
+            "ui5-standardtile",
+            "sap.m.StandardTile"
+        ],
+        "body": [
+            "var ui5StandardTile = new sap.m.StandardTile({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.StandardTile"
+    },
+    "sap.m.StandardTreeItem": {
+        "prefix": [
+            "ui5-standardtreeitem",
+            "sap.m.StandardTreeItem"
+        ],
+        "body": [
+            "var ui5StandardTreeItem = new sap.m.StandardTreeItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.StandardTreeItem"
+    },
+    "sap.m.StepInput": {
+        "prefix": [
+            "ui5-stepinput",
+            "sap.m.StepInput"
+        ],
+        "body": [
+            "var ui5StepInput = new sap.m.StepInput({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.StepInput"
+    },
+    "sap.m.SuggestionItem": {
+        "prefix": [
+            "ui5-suggestionitem",
+            "sap.m.SuggestionItem"
+        ],
+        "body": [
+            "var ui5SuggestionItem = new sap.m.SuggestionItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.SuggestionItem"
+    },
+    "sap.m.Switch": {
+        "prefix": [
+            "ui5-switch",
+            "sap.m.Switch"
+        ],
+        "body": [
+            "var ui5Switch = new sap.m.Switch({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Switch"
+    },
+    "sap.m.TabContainer": {
+        "prefix": [
+            "ui5-tabcontainer",
+            "sap.m.TabContainer"
+        ],
+        "body": [
+            "var ui5TabContainer = new sap.m.TabContainer({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.TabContainer"
+    },
+    "sap.m.TabContainerItem": {
+        "prefix": [
+            "ui5-tabcontaineritem",
+            "sap.m.TabContainerItem"
+        ],
+        "body": [
+            "var ui5TabContainerItem = new sap.m.TabContainerItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.TabContainerItem"
+    },
+    "sap.m.Table": {
+        "prefix": [
+            "ui5-table",
+            "sap.m.Table"
+        ],
+        "body": [
+            "var ui5Table = new sap.m.Table({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Table"
+    },
+    "sap.m.TablePersoController": {
+        "prefix": [
+            "ui5-tablepersocontroller",
+            "sap.m.TablePersoController"
+        ],
+        "body": [
+            "var ui5TablePersoController = new sap.m.TablePersoController({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.TablePersoController"
+    },
+    "sap.m.TablePersoDialog": {
+        "prefix": [
+            "ui5-tablepersodialog",
+            "sap.m.TablePersoDialog"
+        ],
+        "body": [
+            "var ui5TablePersoDialog = new sap.m.TablePersoDialog({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.TablePersoDialog"
+    },
+    "sap.m.TablePersoProvider": {
+        "prefix": [
+            "ui5-tablepersoprovider",
+            "sap.m.TablePersoProvider"
+        ],
+        "body": [
+            "var ui5TablePersoProvider = new sap.m.TablePersoProvider({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.TablePersoProvider"
+    },
+    "sap.m.TableSelectDialog": {
+        "prefix": [
+            "ui5-tableselectdialog",
+            "sap.m.TableSelectDialog"
+        ],
+        "body": [
+            "var ui5TableSelectDialog = new sap.m.TableSelectDialog({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.TableSelectDialog"
+    },
+    "sap.m.TabStripSelectList": {
+        "prefix": [
+            "ui5-tabstripselectlist",
+            "sap.m.TabStripSelectList"
+        ],
+        "body": [
+            "var ui5TabStripSelectList = new sap.m.TabStripSelectList({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.TabStripSelectList"
+    },
+    "sap.m.Text": {
+        "prefix": [
+            "ui5-text",
+            "sap.m.Text"
+        ],
+        "body": [
+            "var ui5Text = new sap.m.Text({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Text"
+    },
+    "sap.m.TextArea": {
+        "prefix": [
+            "ui5-textarea",
+            "sap.m.TextArea"
+        ],
+        "body": [
+            "var ui5TextArea = new sap.m.TextArea({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.TextArea"
+    },
+    "sap.m.Tile": {
+        "prefix": [
+            "ui5-tile",
+            "sap.m.Tile"
+        ],
+        "body": [
+            "var ui5Tile = new sap.m.Tile({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Tile"
+    },
+    "sap.m.TileContainer": {
+        "prefix": [
+            "ui5-tilecontainer",
+            "sap.m.TileContainer"
+        ],
+        "body": [
+            "var ui5TileContainer = new sap.m.TileContainer({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.TileContainer"
+    },
+    "sap.m.TileContent": {
+        "prefix": [
+            "ui5-tilecontent",
+            "sap.m.TileContent"
+        ],
+        "body": [
+            "var ui5TileContent = new sap.m.TileContent({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.TileContent"
+    },
+    "sap.m.TimePicker": {
+        "prefix": [
+            "ui5-timepicker",
+            "sap.m.TimePicker"
+        ],
+        "body": [
+            "var ui5TimePicker = new sap.m.TimePicker({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.TimePicker"
+    },
+    "sap.m.Title": {
+        "prefix": [
+            "ui5-title",
+            "sap.m.Title"
+        ],
+        "body": [
+            "var ui5Title = new sap.m.Title({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Title"
+    },
+    "sap.m.ToggleButton": {
+        "prefix": [
+            "ui5-togglebutton",
+            "sap.m.ToggleButton"
+        ],
+        "body": [
+            "var ui5ToggleButton = new sap.m.ToggleButton({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ToggleButton"
+    },
+    "sap.m.Token": {
+        "prefix": [
+            "ui5-token",
+            "sap.m.Token"
+        ],
+        "body": [
+            "var ui5Token = new sap.m.Token({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Token"
+    },
+    "sap.m.Tokenizer": {
+        "prefix": [
+            "ui5-tokenizer",
+            "sap.m.Tokenizer"
+        ],
+        "body": [
+            "var ui5Tokenizer = new sap.m.Tokenizer({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Tokenizer"
+    },
+    "sap.m.Toolbar": {
+        "prefix": [
+            "ui5-toolbar",
+            "sap.m.Toolbar"
+        ],
+        "body": [
+            "var ui5Toolbar = new sap.m.Toolbar({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Toolbar"
+    },
+    "sap.m.ToolbarLayoutData": {
+        "prefix": [
+            "ui5-toolbarlayoutdata",
+            "sap.m.ToolbarLayoutData"
+        ],
+        "body": [
+            "var ui5ToolbarLayoutData = new sap.m.ToolbarLayoutData({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ToolbarLayoutData"
+    },
+    "sap.m.ToolbarSeparator": {
+        "prefix": [
+            "ui5-toolbarseparator",
+            "sap.m.ToolbarSeparator"
+        ],
+        "body": [
+            "var ui5ToolbarSeparator = new sap.m.ToolbarSeparator({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ToolbarSeparator"
+    },
+    "sap.m.ToolbarSpacer": {
+        "prefix": [
+            "ui5-toolbarspacer",
+            "sap.m.ToolbarSpacer"
+        ],
+        "body": [
+            "var ui5ToolbarSpacer = new sap.m.ToolbarSpacer({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ToolbarSpacer"
+    },
+    "sap.m.Tree": {
+        "prefix": [
+            "ui5-tree",
+            "sap.m.Tree"
+        ],
+        "body": [
+            "var ui5Tree = new sap.m.Tree({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Tree"
+    },
+    "sap.m.TreeItemBase": {
+        "prefix": [
+            "ui5-treeitembase",
+            "sap.m.TreeItemBase"
+        ],
+        "body": [
+            "var ui5TreeItemBase = new sap.m.TreeItemBase({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.TreeItemBase"
+    },
+    "sap.m.UploadCollection": {
+        "prefix": [
+            "ui5-uploadcollection",
+            "sap.m.UploadCollection"
+        ],
+        "body": [
+            "var ui5UploadCollection = new sap.m.UploadCollection({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.UploadCollection"
+    },
+    "sap.m.UploadCollectionItem": {
+        "prefix": [
+            "ui5-uploadcollectionitem",
+            "sap.m.UploadCollectionItem"
+        ],
+        "body": [
+            "var ui5UploadCollectionItem = new sap.m.UploadCollectionItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.UploadCollectionItem"
+    },
+    "sap.m.UploadCollectionParameter": {
+        "prefix": [
+            "ui5-uploadcollectionparameter",
+            "sap.m.UploadCollectionParameter"
+        ],
+        "body": [
+            "var ui5UploadCollectionParameter = new sap.m.UploadCollectionParameter({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.UploadCollectionParameter"
+    },
+    "sap.m.UploadCollectionToolbarPlaceholder": {
+        "prefix": [
+            "ui5-uploadcollectiontoolbarplaceholder",
+            "sap.m.UploadCollectionToolbarPlaceholder"
+        ],
+        "body": [
+            "var ui5UploadCollectionToolbarPlaceholder = new sap.m.UploadCollectionToolbarPlaceholder({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.UploadCollectionToolbarPlaceholder"
+    },
+    "sap.m.VBox": {
+        "prefix": [
+            "ui5-vbox",
+            "sap.m.VBox"
+        ],
+        "body": [
+            "var ui5VBox = new sap.m.VBox({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.VBox"
+    },
+    "sap.m.ViewSettingsCustomItem": {
+        "prefix": [
+            "ui5-viewsettingscustomitem",
+            "sap.m.ViewSettingsCustomItem"
+        ],
+        "body": [
+            "var ui5ViewSettingsCustomItem = new sap.m.ViewSettingsCustomItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ViewSettingsCustomItem"
+    },
+    "sap.m.ViewSettingsCustomTab": {
+        "prefix": [
+            "ui5-viewsettingscustomtab",
+            "sap.m.ViewSettingsCustomTab"
+        ],
+        "body": [
+            "var ui5ViewSettingsCustomTab = new sap.m.ViewSettingsCustomTab({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ViewSettingsCustomTab"
+    },
+    "sap.m.ViewSettingsDialog": {
+        "prefix": [
+            "ui5-viewsettingsdialog",
+            "sap.m.ViewSettingsDialog"
+        ],
+        "body": [
+            "var ui5ViewSettingsDialog = new sap.m.ViewSettingsDialog({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ViewSettingsDialog"
+    },
+    "sap.m.ViewSettingsFilterItem": {
+        "prefix": [
+            "ui5-viewsettingsfilteritem",
+            "sap.m.ViewSettingsFilterItem"
+        ],
+        "body": [
+            "var ui5ViewSettingsFilterItem = new sap.m.ViewSettingsFilterItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ViewSettingsFilterItem"
+    },
+    "sap.m.ViewSettingsItem": {
+        "prefix": [
+            "ui5-viewsettingsitem",
+            "sap.m.ViewSettingsItem"
+        ],
+        "body": [
+            "var ui5ViewSettingsItem = new sap.m.ViewSettingsItem({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.ViewSettingsItem"
+    },
+    "sap.m.Wizard": {
+        "prefix": [
+            "ui5-wizard",
+            "sap.m.Wizard"
+        ],
+        "body": [
+            "var ui5Wizard = new sap.m.Wizard({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.Wizard"
+    },
+    "sap.m.WizardStep": {
+        "prefix": [
+            "ui5-wizardstep",
+            "sap.m.WizardStep"
+        ],
+        "body": [
+            "var ui5WizardStep = new sap.m.WizardStep({",
+            "\t...",
+            "});"
+        ],
+        "description": "New sap.m.WizardStep"
+    }
 }

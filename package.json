@@ -1,29 +1,52 @@
 {
-    "name": "ui5-snippets",
-    "displayName": "ui5-snippets",
-    "description": "SAPUI5/OpenUI5 code snippets for Visual Studio Code",
-    "version": "1.0.0",
-    "publisher": "Andres Garcia",
-    "engines": {
-        "vscode": "^1.36.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "html",
-                "path": "./snippets/html.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/javascript-components.json"
-            },
-            {
-                "language": "xml",
-                "path": "./snippets/xml-components.json"
-            }
-        ]
-    }
+  "name": "ui5-snippets",
+  "displayName": "ui5-snippets",
+  "description": "SAPUI5/OpenUI5 code snippets for Visual Studio Code",
+  "version": "1.0.0",
+  "publisher": "Andres Garcia",
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "scripts": {
+    "build": "node ./npm-scripts/build.js",
+    "download": "node ./npm-scripts/download.js",
+    "create-javascript-components": "node ./npm-scripts/create-javascript-components.js"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/html.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript-components.json"
+      },
+      {
+        "language": "xml",
+        "path": "./snippets/xml-components.json"
+      }
+    ]
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndresgarc/ui5-vscode-snippets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndresgarc/ui5-vscode-snippets/issues"
+  },
+  "homepage": "https://github.com/ndresgarc/ui5-vscode-snippets#readme",
+  "devDependencies": {
+    "request": "^2.88.0"
+  }
 }

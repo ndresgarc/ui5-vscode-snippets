@@ -1,0 +1,14 @@
+{
+	"Insert UI5 bootstrap <script> tag": {
+		"prefix": "ui5-lib",
+		"body": [
+			"<script src=\"https://sapui5.hana.ondemand.com/resources/sap-ui-core.js\"",
+			"\tid=\"sap-ui-bootstrap\"",
+			"\tdata-sap-ui-theme=\"sap_belize\"",
+			"\tdata-sap-ui-language=\"en\"",
+			"\tdata-sap-ui-preload=\"async\">",
+			"</script>"
+		],
+		"description": "Insert the <script> tag"
+	}
+}

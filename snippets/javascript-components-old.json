@@ -1,0 +1,56 @@
+{
+	"sap.m.Button": {
+		"prefix": ["sap.m.Button", "ui5-button"],
+		"body": [
+			"var ui5Button = new sap.m.Button({",
+			"\ttext: \"text\",",	
+			"\tpress: function (oEvent) {",	
+			"\t\t ... ",	
+			"\t}",	
+			"});"
+		],
+		"description": "New sap.m.Button"
+	},
+	"sap.m.Text": {
+		"prefix": ["sap.m.Text", "ui5-text"],
+		"body": [
+			"var ui5Text = new sap.m.Text({",
+			"\ttext: \"text\"",
+			"});"
+		],
+		"description": "New sap.m.Text"
+	},
+	"sap.m.HBox": {
+		"prefix": ["sap.m.HBox", "ui5-hbox"],
+		"body": [
+			"var ui5HBox = new sap.m.HBox({",
+			"\t",
+			"});"
+		],
+		"description": "New sap.m.HBox"
+	},
+	"sap.m.VBox": {
+		"prefix": ["sap.m.VBox", "ui5-vbox"],
+		"body": [
+			"var ui5VBox = new sap.m.VBox({",
+			"\t",
+			"});"
+		],
+		"description": "New sap.m.VBox"
+	},
+	"sap.m.Input": {
+		"prefix": ["sap.m.Input", "ui5-input"],
+		"body": [
+			"var ui5Input = new sap.m.Input({",
+				"\tdescription: '$1' // string",
+				"\tfieldWidth: '$2' // CSSSize",
+				"\tfilterSuggests: '$3' // boolean",
+				"\tmaxLength: '$4' // int",
+				"\tmaxSuggestionWidth: '$5' // CSSSize",
+				"\tselectedKey: '$6' // string",
+				"\tshowSuggestion: '$7' // boolean",
+			"});"
+		],
+		"description": "New sap.m.Input"
+	}
+}
